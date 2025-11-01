@@ -1,0 +1,66 @@
+body {
+    margin: 40px;
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+}
+
+.h2 {
+    text-align: center;
+}
+
+.my-image {
+    position: absolute;
+    float: left;
+    border-radius: 10px;
+    top: 0;
+}
+
+.project>div {
+    display: inline-block;
+}
+
+.div2 {
+    float: right;
+}
+
+.div4 {
+    float: right;
+}
+
+.div3,
+.div4 {
+    margin-top: 20px;
+}
+
+@media (max-width:1020px) {
+    div.card {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media (max-width:670px) {
+    .my-image {
+        position: relative;
+        float: none;
+    }
+
+    .header {
+        text-align: center;
+    }
+}
+
+@media (max-width:560px) {
+    .image {
+        width: 100%;
+    }
+}
+
+footer {
+    text-align: center;
+    font-size: large;
+    color: rgb(85, 44, 44);
+}
