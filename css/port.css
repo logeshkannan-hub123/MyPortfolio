@@ -1,5 +1,6 @@
 body {
     margin: 40px;
+    background-color: rgb(174, 201, 228);
 }
 
 h1 {
@@ -20,25 +21,56 @@ h1 {
 
 .project>div {
     display: inline-block;
+    background-color: aliceblue;
+    width: 45%;
+    border-radius: 10px;
 }
 
-.div2 {
-    float: right;
-}
-
+.div2,
 .div4 {
     float: right;
 }
 
-.div3,
 .div4 {
+    margin-top: 20px;
+}
+
+.image {
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(243, 193, 128);
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.div3 {
     margin-top: 20px;
 }
 
 @media (max-width:1020px) {
     div.card {
         float: none;
-        width: 100%;
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image {
+        width: 70%;
+    }
+
+    .div2 {
+        margin-top: 20px;
     }
 }
 
@@ -53,9 +85,18 @@ h1 {
     }
 }
 
-@media (max-width:560px) {
+@media (max-width:600px) {
+    div.card {
+        float: none;
+        width: 100%;
+    }
+
     .image {
         width: 100%;
+    }
+
+    .div2 {
+        margin-top: 20px;
     }
 }
 
