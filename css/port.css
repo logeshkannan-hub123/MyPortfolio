@@ -4,8 +4,13 @@ body {
 }
 
 h1 {
-    color: brown;
+    color: rgba(165, 42, 42, 0.863);
     text-align: center;
+}
+
+h2 {
+    color: rgba(182, 59, 84, 0.904);
+    font-size: x-large;
 }
 
 .h2 {
@@ -36,16 +41,16 @@ h1 {
 }
 
 .image {
-    width: 80%;
+    width: 60%;
     border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    left: 20%;
 }
 
 h3 {
+    font-size: x-large;
     text-align: center;
-    color: rgb(243, 193, 128);
+    color: rgb(241, 179, 98);
     width: 100%;
 }
 
@@ -57,16 +62,18 @@ a {
     margin-top: 20px;
 }
 
-@media (max-width:1020px) {
+@media (max-width:900px) {
     div.card {
         float: none;
         width: 70%;
-        justify-content: center;
-        align-items: center;
+        position: relative;
+        left: 15%;
     }
 
     .image {
-        width: 70%;
+        width: 60%;
+        position: relative;
+        left: 20%;
     }
 
     .div2 {
@@ -86,17 +93,76 @@ a {
 }
 
 @media (max-width:600px) {
-    div.card {
-        float: none;
-        width: 100%;
-    }
-
     .image {
         width: 100%;
+        position: relative;
+        left: 0%;
     }
 
     .div2 {
         margin-top: 20px;
+    }
+}
+
+.certification>div {
+    display: inline-block;
+    background-color: aliceblue;
+    width: 45%;
+    border-radius: 10px;
+}
+
+.cert2,
+.cert4,
+.cert6 {
+    float: right;
+}
+
+.cert1_image {
+    width: 60%;
+    height: 400px;
+    border-radius: 10px;
+    position: relative;
+    left: 20%;
+}
+
+.cert3,
+.cert4,
+.cert5,
+.cert6 {
+    margin-top: 20px;
+}
+
+@media (max-width:900px) {
+    div.card {
+        float: none;
+        width: 70%;
+        position: relative;
+        left: 15%;
+    }
+
+    .cert1_image {
+        width: 60%;
+        position: relative;
+        left: 20%;
+    }
+
+    .cert2 {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:600px) {
+    div.card {
+        float: none;
+        width: 100%;
+        position: relative;
+        left: 0%;
+    }
+
+    .cert1_image {
+        width: 100%;
+        position: relative;
+        left: 0%;
     }
 }
 
