@@ -32,12 +32,9 @@ h2 {
 }
 
 .div2,
-.div4 {
+.div4,
+.div6 {
     float: right;
-}
-
-.div4 {
-    margin-top: 20px;
 }
 
 .image {
@@ -59,7 +56,9 @@ a {
 }
 
 .div3,
-.div5 {
+.div5,
+.div4,
+.div6 {
     margin-top: 20px;
 }
 
